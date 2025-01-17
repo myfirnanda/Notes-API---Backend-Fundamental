@@ -1,4 +1,4 @@
-const InVariantError = require("../../api/notes/exceptions/InVariantError");
+const InVariantError = require("../../exceptions/InVariantError");
 const { NotePayloadSchema } = require("./schema");
 
 const NotesValidator = {
